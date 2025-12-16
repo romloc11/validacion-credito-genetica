@@ -2,14 +2,14 @@
 
 Este script de Python automatiza la auditoría y validación de clientes para el sistema "Genética", integrando datos de SAP, CRM y registros históricos de límites de crédito.
 
-## 🚀 Problema vs Solución
+##  Problema vs Solución
 
 * **Problema:** La auditoría se realizaba de forma semi-manual con macros de Excel y fórmulas complejas. Esto generaba errores humanos, consumía varias horas de trabajo y dificultaba la trazabilidad de las fechas de origen de los créditos.
 * **Solución:** Un script robusto que centraliza la lógica de negocio, normaliza datos de distintas fuentes y calcula la elegibilidad de los clientes en segundos, garantizando datos 100% precisos para la toma de decisiones.
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 * **Python 3.x**
 * **Pandas:** Procesamiento, limpieza y unión de dataframes.
 * **NumPy:** Operaciones lógicas y manejo de valores nulos.
@@ -17,7 +17,7 @@ Este script de Python automatiza la auditoría y validación de clientes para el
 
 ---
 
-## 📖 Explicación Paso a Paso del Código
+##  Explicación Paso a Paso del Código
 
 El script procesa la información a través de un pipeline de datos estructurado en 5 etapas:
 
@@ -49,7 +49,7 @@ Finalmente, el script calcula los meses transcurridos a la fecha actual y valida
 
 ---
 
-## ⚙️ Ejecución
+##  Ejecución
 
 1.  Asegurarse de tener instaladas las librerías:
     ```bash
